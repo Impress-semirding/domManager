@@ -2,6 +2,18 @@
 <html>
 <head>
 	<title>demo1</title>
+	<style type="text/css">
+		.foo {
+			animation:mymove 5s infinite;
+			overflow: hidden;
+			background-color: #37D1FF;
+			animation-direction: alternate;
+		}
+		@-webkit-keyframes mymove {
+			from {opacity:0;}
+			to {opacity:1;}
+		}
+	</style>
 </head>
 <body>
 	<script type="text/javascript" src="./bundle.js"></script>

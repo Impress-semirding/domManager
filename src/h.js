@@ -67,6 +67,7 @@ function h(tagName, properties, children) {
         props.value = softSetHook(props.value);
     }
 
+
     transformProperties(props);
 
     if (children !== undefined && children !== null) {
