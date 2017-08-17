@@ -1,0 +1,29 @@
+{
+  "name": "dom-manager",
+  "version": "1.0.0",
+  "description": "dom manager",
+  "main": "index.js",
+  "scripts": {
+    "buildtest": "browserify example/index.js --debug | exorcist example/bundle.js.map > example/bundle.js",
+    "server": "python -m SimpleHTTPServer 8088",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Impress-semirding/domManager.git"
+  },
+  "author": "seni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Impress-semirding/domManager/issues"
+  },
+  "homepage": "https://github.com/Impress-semirding/domManager#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "browser-split": "^0.0.1",
+    "dom-pools": "^1.0.0",
+    "ev-store": "^7.0.0"
+  }
+}
